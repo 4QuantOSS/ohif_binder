@@ -2,6 +2,7 @@ name: ohif
 channels:
   - conda-forge
   - defaults
+  - simpleitk
 dependencies:
   - python=3.6
   - numpy
