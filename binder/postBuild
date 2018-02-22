@@ -3,5 +3,6 @@ curl https://install.meteor.com/ | sh
 export PATH="$PATH:$HOME/.meteor/"
 git clone https://github.com/OHIF/Viewers
 cd Viewers/OHIFViewer
-nohup Orthanc &
-nohup METEOR_PACKAGE_DIRS="../Packages" meteor --settings ../config/orthancDIMSE.json &
+meteor npm install --save babel-runtime
+meteor npm install --save loglevel
+METEOR_PACKAGE_DIRS="../Packages" meteor build ../../built_ohif

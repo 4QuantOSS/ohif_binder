@@ -9,5 +9,6 @@ dependencies:
   - nbserverproxy
   - matplotlib
   - SimpleITK
+  - pymongo
   - pip:
     - pydicom
